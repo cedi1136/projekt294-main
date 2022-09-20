@@ -6,6 +6,7 @@ input, button, label{
 body{
     max-width: 300px;
     margin: 0 auto;
+    font-family: sans-serif;
 }
 
 table{
@@ -39,6 +40,30 @@ th, td{
     background-color: #f3f3f3;
 }
 
+a{
+    background-color:grey;
+    border-radius: 20px;
+    color: black;
+}
 
+h2{
+    font-family: sans-serif;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
 
+table th{
+    background-color: #000;
+    color: white;
+    
+}
 
+button[id="CreateButtonStyle"]{
+    background-color: black;
+    color: white; 
+    border-radius: 20px;  
+}
