@@ -7,6 +7,7 @@
                 },
                 body: JSON.stringify(task)
             }).then(() => {
+                alert("Task created")
                 window.location.href = "./showTask.html";
             }).catch(() => {
                 alert("Something went wrong! :(");
