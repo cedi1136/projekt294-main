@@ -26,6 +26,16 @@ function renderTask(tasks) {
         actionsCell.appendChild(deleteButton);
         const editButton = document.createElement("Button");
         editButton.innerText = "✒️"
+        editButton.addEventListener("click", () => {
+            fetch('http://127.0.0.1:3000/task/', {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json' 
+                }
+            })
+
+
+        })
         actionsCell.appendChild(editButton);
 
 
